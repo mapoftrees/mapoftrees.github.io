@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Map of Trees</title>
+  <link rel="shortcut icon" href="circle-64.ico">
+<style>
+body {
+ background-color: black;
+}
+
+.title {
+ color: white;
+ font-family: "IBM Plex Mono";
+ font-size: 10px;
+ text-align: center;
+ margin-bottom: 100px;
+ position: absolute;
+ top: 47%;
+ transform: translate(-50%, -50%);
+ left: 50%;
+}
+
+.subtitle {
+ color: grey;
+ font-family: "IBM Plex Mono";
+ font-size: 9px;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ left: 50%;
+}
+
+.logo {
+ position: absolute;
+ top: 39%;
+ transform: translate(-50%, -50%);
+ left: 50%;
+ width: 100px;
+}
+
+.watch-trailer {
+ color: white;
+ font-family: "IBM Plex Mono";
+ font-size: 9px;
+ text-align: center;
+ position: absolute;
+ top: 57%;
+ transform: translate(-50%, -50%);
+ left: 50%;
+ letter-spacing: 2px;
+ font-weight: 500;
+ cursor: pointer;
+ transition: opacity 0.1s ease-in-out 0.1s;
+ opacity: 1;
+}
+
+.watch-trailer:hover {
+
+
+  /*transition: opacity 0.1s ease-in-out 0.1s;*/
+  opacity: 0.6;
+
+
+}
+
+#timer {
+
+  color: white;
+  font-family: "IBM Plex Mono";
+  font-size: 9px;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.1s ease-in-out 0.1s;
+  opacity: 1;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+svg {
+  position: absolute;
+  top: 39%;
+  left: 49.9%;
+  transform: translate(-50%, -50%) scale(0.3);
+
+  z-index: -100;
+
+
+
+  -webkit-animation: fadein 4s ease-out; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+     -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 4s ease-out;
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+</style>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script defer type = "text/javascript" src="circles.js">
+
+  animate();
+
+</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans">
+</head>
+<body>
+
+<!-- <svg width="100%" height="100%"></svg> -->
+<div class="title">MAP OF TREES</div>
+<div class="subtitle">COMING SOON</div>
+<!-- <img src="https://i.imgur.com/2JJcr0G.png" class="logo"> -->
+<a href="https://replay.dropbox.com/share/nix78PYG2G1YilSE"><div class="watch-trailer"><span>WATCH</span><br>TRAILER</div></a>
+
+
+</body>
+</html>
